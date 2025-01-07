@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", serif;
+}
+
+.hero {
+    background-image: linear-gradient(360.00deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%), url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.hero-content{
+    margin: 0 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.hero-content{
+    text-align: center;
+}   
+
+.hero-sub-heading{
+    color: rgb(212, 212, 212);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.hero-main-heading{
+    color: white;
+    font-size: 58px;
+    line-height: 1.3em;
+    margin-top: 10px;
+}
+
+.hero-text{
+    color: white;
+    line-height: 1.8rem;
+}
+
+.hero-btn{
+    border-radius: 5px;
+    background: rgb(82, 195, 3);
+    padding: 15px 24px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 1em;
+}
+
+.card-box{
+    text-align: center;
+    max-height: 720px;
+    padding: 20px 0;
+}
+
+.sub-heading-2{
+    color: rgb(59, 59, 59);
+    font-size: 15px;
+
+}
+
+.card-box-heading{
+    font-size: 36px;
+    line-height: 2.5rem;
+    margin-top: 10px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 800px;
+    margin: 5% auto;
+}
+.card{
+    text-align: center;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.card-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card img{
+    width: 285px;
+}
+
+.card-inside-btn{
+    border: 1px solid black;
+    width: 125px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(82, 195, 3, 0.15);
+    margin-top: 14px;
+    font-weight: 600;
+}
+
+.card-offer{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-text{
+    font-size: .75em;
+}
+
+.card-box-btn{
+    height: 43px;
+    width: 142px;
+    border-radius: 5px;
+    background: rgb(82, 195, 3);
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.about-us{
+    height: 550px;
+    padding-top: 50px;
+}
+
+.about-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+}
+
+.about-flex-box-img{
+    background-image: url(assets/foods.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+}
+
+.about-flex-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    
+}
+
+.about-detail-2{
+    width: 100%;
+}
+
+.about-box-heading{
+    font-size: 2.3rem;
+    line-height: 1.5em;
+}
+
+.about-box-text{
+    margin-top: 15px;
+}
+
+.follow-us{
+    font-size: 22px;
+    font-weight: 600;
+    opacity: 0.7;
+    margin: 30px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+footer{
+    background: url(assets/image\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.social{
+    width: 30px;
+}
